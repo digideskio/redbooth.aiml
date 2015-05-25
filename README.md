@@ -48,3 +48,26 @@ The goal is to achieve this kind of conversation:
 > Pabot: In Redbooth tasks have only one person responsible for a given task but many can be watching and contributing. You can always create and promote subtasks.
 
 > Pabot: Read more about it here:
+
+## How to try it out?
+
+First create an account in [Pandorabots](https://developer.pandorabots.com/).
+
+```bash
+npm install -g pb-cli
+pb init
+pb create
+```
+
+To upload new files:
+
+```bash
+pb upload example.aiml
+pb compile
+```
+
+To talk:
+
+```bash
+pb talk Onboarding
+```

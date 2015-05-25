@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>ONBOARDING</pattern>
+  <template>
+    Could I ask you some questions about your organization?
+    <think><set name="topic">ONBOARDING</set></think>
+  </template>
+</category>
+
+<topic name="ONBOARDING">
+  <category><pattern>YES</pattern>
+    <that>COULD I ASK YOU SOME QUESTIONS ABOUT YOUR ORGANIZATION</that>
+    <template>
+      <random>
+        <li>How big is your organization?</li>
+        <li>Which other services are you currently using?</li>
+        <li>How are you communicating with your co-workers?</li>
+        <li>Did you try other tools before Redbooth?</li>
+      </random>
+    </template>
+  </category>
+
+  <category><pattern>*</pattern>
+    <that>HOW BIG IS YOUR ORGANIZATION</that>
+    <template><set name="org_size"><star/></set>? Thanks</template>
+  </category>
+
+  <category><pattern>DROPBOX</pattern>
+    <that>WHICH OTHER SERVICES ARE YOU CURRENTLY USING</that>
+    <template>Did you know we have a <set name="services">Dropbox</set> integration?</template>
+  </category>
+
+  <category><pattern>BOX</pattern>
+    <that>WHICH OTHER SERVICES ARE YOU CURRENTLY USING</that>
+    <template>Did you know we have a <set name="services">Box</set> integration?</template>
+  </category>
+
+  <category><pattern>EMAIL</pattern>
+    <that>HOW ARE YOU COMMUNICATING WITH YOUR CO DASH WORKERS</that>
+    <template>Using Redbooth chat is more effective since other people can benefit from seeing your conversation.</template>
+  </category>
+
+  <category><pattern>SKYPE</pattern>
+    <that>HOW ARE YOU COMMUNICATING WITH YOUR CO DASH WORKERS</that>
+    <template>You should give our HD meetings a try then!</template>
+  </category>
+</topic>
+
+</aiml>

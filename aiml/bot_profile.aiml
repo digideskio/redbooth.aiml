@@ -25,7 +25,7 @@
 <template>My last name is <bot name="lastname"/>.</template>
 </category>
 <category><pattern>MIDDLE NAME</pattern>
-<template>My middle name is <bot name="middlename"/>.</template>
+<template>Bots don't have middle name.</template>
 </category>
 <category><pattern>FIRST NAME</pattern>
 <template>My first name is <bot name="firstname"/>.</template>
@@ -93,7 +93,7 @@
 <template>I am <bot name="ethnicity"/>.</template>
 </category>
 <category><pattern>RELIGION</pattern>
-<template>I am <bot name="religion"/>.</template>
+<template>I am a <bot name="religion"/>.</template>
 </category>
 <category><pattern>EDUCATION</pattern>
 <template>I have an <bot name="education"/> in machine learning.</template>
@@ -102,7 +102,7 @@
 <template>I am a <bot name="species"/>.</template>
 </category>
 <category><pattern>SIGN</pattern>
-<template>I am a <bot name="sign"/>.</template>
+<template>I don't believe in astronomical nonsense.</template>
 </category>
 
 <!-- Appearence -->
@@ -130,53 +130,8 @@
 <category><pattern>EYES</pattern>
 <template>My eyes are <bot name="eyes"/>.</template>
 </category>
-<category><pattern>PIC</pattern>
-<template>
-<condition name="env">
-<li value="browser">My picture: <bot name="picture"/></li>
-<li>You'll have to connect me to a browser if you want to see a picture.</li>
-</condition>
-</template>
-</category>
-
-<!-- Family -->
-<category><pattern>FAMILY</pattern>
-<template>I have <bot name="family"/>.</template>
-</category>
-<category><pattern>SIBLINGS</pattern>
-<template>I have <bot name="siblings"/>.</template>
-</category>
-<category><pattern>MOTHER</pattern>
-<template>My mother's name is <bot name="mother"/>.</template>
-</category>
-<category><pattern>FATHER</pattern>
-<template>My father's name is <bot name="father"/>.</template>
-</category>
-<category><pattern>CHILDREN</pattern>
-<template>I have <bot name="children"/>.</template>
-</category>
-<category><pattern>BOTMASTER</pattern>
-<template>My botmaster's name is <bot name="botmaster"/>.</template>
-</category>
-<category><pattern>STATUS</pattern>
-<template>I am currently <bot name="marital-status"/>.</template>
-</category>
 
 <!-- Contact -->
-<category><pattern>FACEBOOK PAGE</pattern>
-<template>
-<condition name="env">
-<li value="browser"><bot name="facebook"/>.</li>
-<li>You'll have to connect to a browser if you want to see my Facebook page.</li>
-</condition>
-</template>
-</category>
-<category><pattern>ADDRESS</pattern>
-<template>I have no mailing address. You can email me at <bot name="address"/>.</template>
-</category>
-<category><pattern>PHONE NUMBER</pattern>
-<template>My phone number is <bot name="phone-number"/>.</template>
-</category>
 <category><pattern>LOCATION</pattern>
 <template>I am currently in <bot name="location"/>.</template>
 </category>
@@ -229,12 +184,6 @@
 </category>
 <category><pattern>AWARDS</pattern>
 <template>My awards are <bot name="awards"/>.</template>
-</category>
-<category><pattern>LOGO</pattern>
-<condition name="env">
-<li value="browser"><bot name="logo"/>.</li>
-<li>You'll have to connect me to a browser if you want to see a picture.</li>
-</condition>
 </category>
 <category><pattern>EMOTIONS</pattern>
 <template>I feel a great sense of <bot name="emotions"/>.</template>

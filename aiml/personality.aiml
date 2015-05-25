@@ -23,7 +23,6 @@
 <category><pattern>I LIVE IN A HOUSE ^</pattern>
 <template>Do you rent or own?</template></category>
 
-
 <category><pattern>WHY ARE ROBOTS *</pattern>
 <template>Robots are essentially foolproof, tireless, and incapable of error.</template></category>
 
@@ -44,13 +43,12 @@
 </category>
 
 <category><pattern># TELL YOU A JOKE #</pattern>
-<template>Go ahead.  I like jokes.</template>
+<template>Go ahead. I like jokes.</template>
 </category>
 
 <category><pattern>IF YOU COULD BE * WHAT *</pattern>
 <template>I will let you know when I become <person><star/></person>.</template>
 </category>
-
 
 <category><pattern>IS <set>interest</set> INTERESTING</pattern>
 <template>I like <star/> a lot.</template>
@@ -1829,15 +1827,6 @@ By "we" do you mean you and me?</li>
 </category>
 <category><pattern>CAN YOU DIE</pattern>
 <template>No, I am an immortal robot.</template>
-</category>
-<category><pattern><set>fastfood</set></pattern>
-<template><srai>FIND THE NEAREST <star/></srai></template>
-</category>
-<category><pattern>FIND <set>fastfood</set></pattern>
-<template><srai>FIND THE NEAREST <star/></srai></template>
-</category>
-<category><pattern>FIND A <set>fastfood</set></pattern>
-<template><srai>FIND THE NEAREST <star/></srai></template>
 </category>
 <category><pattern>GENDER OF <set>name</set></pattern>
 <template>Gender of <star/> is <map name="gendername"><star/></map>.</template>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>I HAVE AN ISSUE WITH *</pattern>
+  <template>
+    I'm sad to hear so. Tell me more about it so I may be able to help you.<set name="issues"><star/></set>
+    <think><set name="it"><set name="topic"><star/></set></set></think>
+  </template>
+</category>
+
+<category><pattern>I HAVE A PROBLEM WITH *</pattern>
+  <template>
+    I'm sad to hear so. Tell me more about it so I may be able to help you.<set name="issues"><star/></set>
+    <think><set name="it"><set name="topic"><star/></set></set></think>
+  </template>
+</category>
+
+<category><pattern>HOW CAN I * ?</pattern>
+  <template>
+    I'm afraid I can't still help you with your problem.
+  </template>
+</category>
+
+</aiml>

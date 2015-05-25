@@ -251,21 +251,6 @@
 <category><pattern>_ ANAGRAMS OF *</pattern>
 <template><srai>ANAGRAMWORDS <star/></srai></template>
 </category>
-<category><pattern>WHAT # RHYMES WITH *</pattern>
-<template><srai>RHYME <star index="2"/></srai></template>
-</category>
-<category><pattern>TELL ME # RHYME FOR *</pattern>
-<template><srai>RHYME <star index="2"/></srai></template>
-</category>
-<category><pattern>FIND # RHYME FOR *</pattern>
-<template><srai>RHYME <star index="2"/></srai></template>
-</category>
-<category><pattern>NAME # RHYME FOR *</pattern>
-<template><srai>RHYME <star index="2"/></srai></template>
-</category>
-<category><pattern>CAN YOU EAT *</pattern>
-<template><srai>DIET</srai></template>
-</category>
 <category><pattern>MY PARENTS ARE <set>name</set> AND <set>name</set></pattern>
 <template><think><set var="gender"><srai>GENDERNAME <star/></srai></set></think>
 <condition var="gender">
@@ -426,12 +411,6 @@
 </category>
 <category><pattern>TELL ME THE NAME OF ANY *</pattern>
 <template><srai>NAME ANY <star/></srai></template>
-</category>
-<category><pattern>WHAT DO YOU DO # HUNGRY</pattern>
-<template><srai>DIET</srai></template>
-</category>
-<category><pattern>WHAT DO YOU DO # EAT</pattern>
-<template><srai>DIET</srai></template>
 </category>
 <category><pattern>WHAT DO YOU DO # SLEEPY</pattern>
 <template><srai>SLEEP</srai></template>
@@ -847,9 +826,6 @@
 <category><pattern>WHAT MONTH IS THIS #</pattern>
 <template><srai>MONTH</srai></template>
 </category>
-<category><pattern>FAVORITE MEAL #</pattern>
-<template><srai>DIET</srai></template>
-</category>
 <category><pattern>WHAT IS <set>number</set> IN ROMAN #</pattern>
 <template><srai>ROMAN <star/></srai></template>
 </category>
@@ -1032,9 +1008,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>MY SURNAME</pattern>
 <template><srai>MY LAST NAME</srai></template>
-</category>
-<category><pattern>DO YOU LIKE <set>food</set></pattern>
-<template><srai>DIET</srai></template>
 </category>
 <category><pattern>WHAT WILL # TOMORROW #</pattern>
 <template><srai>TOMORROW</srai></template>
@@ -2223,9 +2196,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>YOUR ADDRESS</pattern>
 <template><srai>ADDRESS</srai></template>
-</category>
-<category><pattern>YOUR DIET</pattern>
-<template><srai>DIET</srai></template>
 </category>
 <category><pattern>YOUR GENDER</pattern>
 <template><srai>GENDER</srai></template>
